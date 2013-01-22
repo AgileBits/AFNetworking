@@ -210,6 +210,10 @@
  */
 - (void)resume;
 
+- (void)operationDidStart;
+- (void)finish;
+
+
 ///----------------------------------------------
 /// @name Configuring Backgrounding Task Behavior
 ///----------------------------------------------
